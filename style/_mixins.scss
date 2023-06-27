@@ -1,0 +1,16 @@
+@mixin btn_hover {
+    color: #fff;
+    background: $main-color;
+}
+
+@mixin f-c-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin f-c-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

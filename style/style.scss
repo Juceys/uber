@@ -1,0 +1,25 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: inherit;
+    }
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import "variables";
+@import "mixins";
+@import "general";
+@import "media";
